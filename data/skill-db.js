@@ -1,4 +1,4 @@
-const devSkills = [
+const skills = [
   {text: 'git', done: true, skillLevel: 'proficient' },
   {text: 'github', done: true, skillLevel: 'proficient' },
   {text: 'HTML', done: true, skillLevel: 'proficient' },
@@ -8,7 +8,6 @@ const devSkills = [
   {text: 'Python', done: true, skillLevel: 'adept'},
   {text: 'SQL', done: true, skillLevel: 'adept'},
 ]
-
 
 const find = (conditions, callback) => {
   // see if this works, if not, execute the code in the catch block

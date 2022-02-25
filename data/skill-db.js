@@ -4,7 +4,7 @@ const skills = [
   {text: 'HTML', done: true, _id: 345678 },
   {text: 'CSS', done: true, _id: 456789},
   {text: 'Javascript', done: true, _id: 567891},
-  {text: 'Nodejs', done: true, _id: 678910}
+  {text: 'Nodejs', done: false, _id: 678910}
 ]
 
 const find = (conditions, callback) => {
